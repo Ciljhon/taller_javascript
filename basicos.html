@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos de javascript</title>
+</head>
+<body>
+    <h1>FUNDAMENTOS DE JAVASCRIPT</h1>
+    <script>
+        var hola ="hola mundo";
+        let hello = "hello Word";
+        
+        console.log(hola);
+        console.log(hello);
+        console.log(window);
+        console.log(window.hola);
+        console.log(window.hello);
+
+        //Ambito de bloques {}
+        console.log("***************var***************************");
+        var musica = "Rock";
+        console.log("Variable Musica antes del bloque",musica);
+        {
+            var musica = "Pop";
+            console.log("Variable musica DENTRO DEL BLOG",musica);
+        }
+        console.log("variable musica despues del blog",musica);
+
+        console.log("***************let***************************");
+        
+        let musica2 = "Rocksito";
+        console.log("Variable Musica antes del bloque",musica2);
+        {
+            let musica2 = "Popsito";
+            console.log("Variable musica DENTRO DEL BLOG",musica2);
+        }
+        console.log("variable musica despues del blog",musica2);
+        
+    </script>
+    
+</body>
+</html>
