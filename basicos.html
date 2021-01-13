@@ -7,6 +7,7 @@
 </head>
 <body>
     <h1>FUNDAMENTOS DE JAVASCRIPT</h1>
+   
     <script>
         var hola ="hola mundo";
         let hello = "hello Word";
@@ -58,7 +59,7 @@
 
        console.log(objeto);
        console.log(colores);
-*/
+*//*
 // Cadenas de texto aqui String
 let nombre ="jhon";
 let apellido = "Cecilio";
@@ -80,7 +81,37 @@ console.log(
     lorem.trim(),
     lorem.split(" "),
     lorem.split(",")
-    ); 
+    ); */
+
+    //concatenacion
+    let nombre= "jhonnyCe";
+    let apellido ="Cecilio";
+
+    let saludo ="Hola mi nombre es: "+nombre+" "+apellido+".";
+    console.log(saludo);
+
+    //Interpolacion de variables    template String
+    let saludo2 =`Hola mi nombre es ${nombre}   ${apellido}`;
+    console.log(saludo2);
+
+    let ul = " <ul><li>Primavera</li><li>Verano</li><li>Otoño</li><li>Imvierno</li></ul> ";
+    console.log(ul);
+    let ul2 = ` 
+    <ul>
+        <li>Primavera</li>
+        <li>Verano</li>
+        <li>Otoño</li>
+        <li>Imvierno</li>
+    </ul>
+    `;
+    console.log(ul2);
+let ul3= "<ul>";
+        ul3+="<li>Primavera</li>"
+        ul3+="<li>Verano</li>"        
+        ul3+="<li>Otoño</li>"   
+        ul3+="<li>Imvierno</li>"   
+   ul3+="</ul>" ;
+   console.log(ul3);
     </script>
 
     
